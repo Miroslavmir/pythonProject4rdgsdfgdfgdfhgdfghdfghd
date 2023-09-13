@@ -1,0 +1,23 @@
+# def climbStairs(n, k):
+#     if n < 1:
+#         return 0
+#     if n == 1:
+#         return 1
+#     return climbStairs(n - 1, k) + climbStairs(n - 2, k) + climbStairs(n - k, k)
+# print(climbStairs(12, 4))
+
+
+# import math
+# def length_line(x, y):
+#     a = y[0] - x[0]
+#     print(a)
+#     b = y[1] - x[1]
+#     print(b)
+#     line_c = math.sqrt(a ** 2 + b ** 2)
+#     return round(line_c, 2)
+#
+# x1 = [15, 7]
+# y1 = [22, 11]
+#
+# c1 = length_line(x1, y1)
+# print(c1)
